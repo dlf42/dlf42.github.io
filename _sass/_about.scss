@@ -1,8 +1,13 @@
 .about {
-  .avatar {
-    padding: 0 2.5rem;
-    border-radius: 50%;
-    width: 20rem;
-    height: 15rem;
+  .column-avatar {
+    text-align: center;
+    .avatar {
+      border-radius: 50%;
+      width: 15rem;
+      height: 15rem;
+      background: url('/assets/avatar.jpg') no-repeat center right;
+      background-size: cover;
+      display: inline-block;
+    }
   }
 }
