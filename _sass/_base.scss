@@ -15,9 +15,9 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: $color-primary;
   &:visited {
-    color: $color-primary-darker;
+    color: $color-complement;
   }
   &:hover {
-    color: $color-primary-light;
+    color: $color-primary-dark;
   }
 }

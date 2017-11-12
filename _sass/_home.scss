@@ -8,6 +8,16 @@
     color: $color-primary;
     font-size: 5rem;
     font-weight: 900;
+    cursor: pointer;
+    a:visited {
+      color: inherit;
+    }
+    .letter {
+      transition: color .25s;
+      &:hover {
+        color: $color-primary-darker;
+      }
+    }
   }
   hr {
     margin-top: 0;    
