@@ -1,0 +1,10 @@
+@import "_variables.scss";
+
+.home {
+  text-align: center;
+  padding: 3.75rem .25rem;
+  .logo {
+    font-family: 'Satisfy', cursive;
+    color: $color-primary;
+  }
+}

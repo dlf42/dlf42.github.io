@@ -1,0 +1,22 @@
+@import "_variables.scss";
+
+nav {
+  font-family: 'Titillium Web', sans-serif;
+  text-transform: uppercase;
+  ul.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    li {
+      display: flex;
+      flex-direction: column;
+      padding: 1.5rem;
+      a {
+        color: inherit;
+      }
+      &.current a {
+        color: $color-primary;
+      }
+    }
+  }
+}
