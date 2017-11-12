@@ -2,11 +2,14 @@
 
 .home {
   text-align: center;
-  padding: 3.75rem .25rem;
+  padding: 1.5rem .25rem;
   .logo {
     font-family: 'Satisfy', cursive;
     color: $color-primary;
     font-size: 5rem;
     font-weight: 900;
+  }
+  hr {
+    margin-top: 0;    
   }
 }
