@@ -1,18 +1,17 @@
 .card {
-    width: 50rem;
     display: flex;
     flex-direction: column;
-    box-shadow: 0px 5px 10px -3px rgba(0, 0, 0, 0.5);
     margin-bottom: 2rem;
-    border-radius: 0 2rem 2rem;
-    background: white;
-    .card__image {
-        width: calc(100% + 2px);
-        height: 30rem;
-        margin: -1px;
-    }
+    background-image: linear-gradient(to bottom, $color-primary 25%, transparent 15%, transparent 75%, $color-primary 75%), linear-gradient(to bottom, $color-primary 25%, transparent 15%, transparent 75%, $color-primary 75%), linear-gradient(to right, $color-primary 25%, transparent 15%, transparent 75%, $color-primary 75%), linear-gradient(to right, $color-primary 25%, transparent 15%, transparent 75%, $color-primary 75%);
+    background-size: .5rem 100%, .5rem 100%, 100% .5rem, 100% .5rem;
+    background-position: 0 0, 100% 0, 0 0, 0 100%;
+    background-repeat: no-repeat;
+    padding: 2.5rem;
     .card__title {}
     .card__text {
         padding: 2.5rem;
+        .card__text--center {
+            text-align: center;
+        }
     }
 }
