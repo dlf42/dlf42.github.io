@@ -1,0 +1,26 @@
+@import "variables.scss";
+header {
+    .header {
+        text-align: center;
+        padding: 1.5rem .25rem;
+        .logo {
+            font-family: 'Satisfy', cursive;
+            color: $color-primary;
+            font-size: 5rem;
+            font-weight: 900;
+            cursor: pointer;
+            a:visited {
+                color: inherit;
+            }
+            .letter {
+                transition: color .25s;
+                &:hover {
+                    color: $color-primary-darker;
+                }
+            }
+        }
+        hr {
+            margin-top: 0;
+        }
+    }
+}
