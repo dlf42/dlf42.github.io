@@ -32,7 +32,11 @@ plugins:
 sass:
   sass_dir: _sass
 
-permalink: /:categories/:title/
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: /blog/:categories/:title/
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

@@ -427,15 +427,15 @@ The next paragraph contains a link and some text.
 [linkid]: http://example.com
 {:hreflang="de"}
 
-Here comes a ![smiley](../images/smiley.png)! And here
+Here comes a ![smiley](http://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg)! And here
 ![too](../images/other.png 'Title text'). Or ![here].
-With empty alt text ![](see.jpg)
+With empty alt text ![](http://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg)
 
-Here is an inline ![smiley](smiley.png){:height="36px" width="36px"}.
+Here is an inline ![smiley](http://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg){:height="36px" width="36px"}.
 
 And here is a referenced ![smile]
 
-[smile]: smile.png
+[smile]: http://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg
 {: height="36px" width="36px"}
 
 *some text*
