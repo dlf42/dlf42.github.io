@@ -7,9 +7,24 @@
     background-position: 0 0, 100% 0, 0 0, 0 100%;
     background-repeat: no-repeat;
     padding: 2.5rem;
-    .card__title {}
+    .card__title,
+    .card__meta {
+        padding: 2.5rem;
+    }
+    .card__title {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .card__meta {
+        .card__meta--date {
+            color: #848484;
+        }
+    }
     .card__text {
         padding: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
         .card__text--center {
             text-align: center;
         }

@@ -1,8 +1,9 @@
 ---
   layout: post
   title: kramdown exmaple
-  tags: 
+  tags: test github example kramdown
   categories: 
+  summary: This para line starts at the first column. However
 ---
 
 This para line starts at the first column. However,

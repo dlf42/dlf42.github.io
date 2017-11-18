@@ -5,12 +5,6 @@ layout: default
   <h1 class="post__title">{{page.title}}</h1>
   <div class="post__meta">
     <span class="post__meta--date">{{page.date | date_to_long_string}} </span>
-    <div class="post__meta--tags">
-      {% for tag in page.tags %}
-        {% capture tag_name %}{{ tag }}{% endcapture %}
-        <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
-      {% endfor %}
-    </div>
     <div class="post__meta--share">
       Share &rarr;
       <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">
@@ -22,6 +16,12 @@ layout: default
       <a href="http://www.reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ page.title }}" rel="nofollow" target="_blank" title="Share on Reddit">
         <i class="fa fa-reddit" aria-hidden="true"></i>
       </a>
+    </div>
+     <div class="post__meta--tags">
+      {% for tag in page.tags %}
+        {% capture tag_name %}{{ tag }}{% endcapture %}
+        <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+      {% endfor %}
     </div>
   </div>
   <hr>

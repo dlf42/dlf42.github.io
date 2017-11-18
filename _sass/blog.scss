@@ -1,0 +1,18 @@
+.blog {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    .card {
+        display: flex;
+        max-width: 40rem;
+        margin: 0 1.75rem;
+        margin-bottom: 0;
+        margin-bottom: 2.5rem;
+        .card__title {
+            margin-top: 0;
+        }
+    }
+}
