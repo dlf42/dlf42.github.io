@@ -13,6 +13,9 @@ header {
             a:visited {
                 color: inherit;
             }
+            a:hover {
+                color: $color-primary;
+            }
             .letter {
                 transition: color .25s;
                 &:hover {
