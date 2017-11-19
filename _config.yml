@@ -36,6 +36,8 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
+title_postfix: " | Dolf Barr"
+
 permalink: /blog/:categories/:title/
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

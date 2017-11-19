@@ -1,9 +1,17 @@
 <head>
-  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="theme-color" content="#000000">
   <link href="/favicon.png" rel="icon">
+
+
   <title>{{ page.title }} | Dolf Barr</title>
+  <meta name="author" content="Dolf Barr">
+  <meta property="profile:first_name" content="Dolf">
+  <meta property="profile:last_name" content="Barr">
+  <meta property="profile:username" content="dlf42">
+  <meta property="profile:gender" content="male">
+
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i|Titillium+Web:600,700,900&amp;subset=cyrillic"
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
@@ -12,7 +20,27 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="/css/main.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/css/syntax.css" rel="stylesheet">
+
+
   {% if site.tags != "" %}
     {% include collectTags.html %}
   {% endif %}
+
+
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{page.summary}}">
+  {% comment %} <meta property="og:image" content="http://euro-travel-example.com/thumbnail.jpg"> {% endcomment %}
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:site_name" content="Dolf Barr" />
+
+
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{{page.summary}}">
+  {% comment %} <meta name="twitter:image" content=" http://euro-travel-example.com/thumbnail.jpg"> {% endcomment %}
+  <meta name="twitter:card" value="summary"> 
+  <meta name="twitter:site" content="@dlf42me">
+  <meta name="twitter:creator" content="@dlf42me">
+
+  <meta itemprop="name" content="{{ page.title }}">
+  <meta itemprop="description" content="{{ page.summary }}">
 </head>
