@@ -8,4 +8,7 @@ permalink: /blog
 {% for post in sorted %}
   {% include postCard.html %}
 {% endfor %}
+{% if !sorted %}
+Sorry, there're no blog posts yet
+{% endif %}
 </div>
