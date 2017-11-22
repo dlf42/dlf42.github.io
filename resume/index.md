@@ -3,4 +3,6 @@ layout: default
 title: Resume
 permalink: /resume
 ---
-<div>It's Resume</div>
+<div class="blog">
+  Sorry, there's no resume yet
+</div>
