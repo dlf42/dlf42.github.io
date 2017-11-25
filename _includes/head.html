@@ -1,4 +1,13 @@
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110143934-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-110143934-1');
+  </script>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="theme-color" content="#000000">
@@ -38,8 +47,8 @@
   <meta name="twitter:description" content="{{page.summary}}">
   {% comment %} <meta name="twitter:image" content=" http://euro-travel-example.com/thumbnail.jpg"> {% endcomment %}
   <meta name="twitter:card" value="summary"> 
-  <meta name="twitter:site" content="@dlf42me">
-  <meta name="twitter:creator" content="@dlf42me">
+  <meta name="twitter:site" content="@{{site.twitter_username}}">
+  <meta name="twitter:creator" content="@{{site.twitter_username}}">
 
   <meta itemprop="name" content="{{ page.title }}">
   <meta itemprop="description" content="{{ page.summary }}">
