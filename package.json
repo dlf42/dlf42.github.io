@@ -1,0 +1,24 @@
+{
+  "name": "dlf42.github.io",
+  "version": "0.1.0",
+  "description": "Personal site: Dolf Barr",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run clean && ELEVENTY_ENV=development eleventy --serve",
+    "build": "npm run clean && eleventy",
+    "clean": "rm -rf build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dolfbarr/dlf42.github.io.git"
+  },
+  "author": "Dolf Barr <dolf.barr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dolfbarr/dlf42.github.io/issues"
+  },
+  "homepage": "https://github.com/dolfbarr/dlf42.github.io#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  }
+}
